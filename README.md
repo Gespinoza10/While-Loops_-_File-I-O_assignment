@@ -18,3 +18,28 @@ The Output.txt file contains the following if the user entered 11.
 11 x 12 = 132
 The Sum of the products : 858
 ```
+
+# Opening and Writing to a file
+
+```
+#include <fstream>
+```
+
+Creating and opening a file to display our output.
+```
+//Opening the file where the output will be displayed
+    ofstream outfile;
+    outfile.open("Output.txt");
+```
+
+Output that will be displayed on the file.
+```
+outfile<<n<<" x "<<i<<" = "<<product<<endl;
+outfile<<"The sum of the products : "<<sum;
+```
+
+Closing the file.
+
+```
+outfile.close();
+```
