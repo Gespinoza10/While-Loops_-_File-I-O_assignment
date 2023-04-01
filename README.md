@@ -27,7 +27,7 @@ The Sum of the products : 858
 
 Creating and opening a file to display our output.
 ```
-//Opening the file where the output will be displayed
+Opening the file where the output will be displayed
     ofstream outfile;
     outfile.open("Output.txt");
 ```
